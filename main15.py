@@ -3,7 +3,7 @@ li = [22.4, 4.0, 16.22,9.10, 11.71, 12.22, 14.20, 5.20, 17.50]
 
 li = [int(x) for x in li]
 
-print("Ma liste original est :" ,li)
+print("Ma liste arrondie originale est :" ,li)
 
 def tri_croissant(li):
         n= len(li)
@@ -16,5 +16,5 @@ def tri_croissant(li):
         return li
 
 resultat = tri_croissant(li)
-print("La liste dans l'ordre est : ", resultat)
+print("La liste arrondie dans l'ordre est : ", resultat)
 
